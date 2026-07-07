@@ -119,10 +119,10 @@ p  { margin: 0 0 1em; color: var(--text-muted); }
   background: var(--grad-accent); color: #1a0e03; font-weight: 900; box-shadow: var(--shadow-glow);
 }
 .brand .go { color: var(--brand-orange); }
-.nav-links { display: flex; gap: 4px; align-items: center; }
+.nav-links { display: flex; gap: 2px; align-items: center; }
 .nav-links a {
-  padding: 8px 12px; border-radius: var(--r-pill); font-size: 0.93rem; font-weight: 600;
-  color: var(--text-muted); transition: background .15s, color .15s;
+  padding: 8px 10px; border-radius: var(--r-pill); font-size: 0.9rem; font-weight: 600;
+  color: var(--text-muted); white-space: nowrap; transition: background .15s, color .15s;
 }
 .nav-links a:hover { background: var(--surface-2); color: var(--text); }
 .nav-tel {
@@ -133,7 +133,7 @@ p  { margin: 0 0 1em; color: var(--text-muted); }
 @media (max-width: 480px) { .nav-tel { display: none; } }
 .nav-toggle { display: none; background: none; border: 0; color: var(--text); font-size: 1.5rem; cursor: pointer; }
 
-@media (max-width: 940px) {
+@media (max-width: 1080px) {
   .nav-links {
     position: absolute; inset: 64px 0 auto 0; flex-direction: column; align-items: stretch;
     background: var(--bg-elevated); border-bottom: 1px solid var(--border); padding: 12px var(--gutter);
